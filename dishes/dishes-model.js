@@ -7,7 +7,7 @@ module.exports = {
   };
 
 function find() {
-    return db('dishes');
+    return db('dishes_recipes');
 }
 
 function findById(id) {

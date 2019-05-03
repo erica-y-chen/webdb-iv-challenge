@@ -25,6 +25,8 @@ exports.up = function(knex, Promise) {
 
     .createTable('dishes_recipes', tbl => {
         tbl.increments();
+        tbl 
+            .string('dishes_name', 400)
         tbl
             .integer('dishes_id')
             .unsigned()
